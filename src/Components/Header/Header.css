@@ -1,0 +1,10 @@
+.container-fluid img {
+    width: 130px;
+    border: 1px dotted;
+    padding: 5px 10px;
+    margin: px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
