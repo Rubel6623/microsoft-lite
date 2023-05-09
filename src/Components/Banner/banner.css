@@ -1,0 +1,28 @@
+.nav-title{
+    box-sizing: border-box;
+    background-color: #0067b8;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav-title:hover{
+    text-decoration: underline;
+}
+.banner-img{
+    margin-bottom: 100px;
+    
+}
+.btn-book{
+    background-color: #0067b8;
+    margin-right: 25px;
+}
+.banner-text{
+    padding-right: 200px;
+}
+.slide-card{
+    padding-left: 10px;
+    margin-right: 200px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: rgba(243, 241, 241, 0.61);
+}
