@@ -1,11 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState } from 'react';
 import './App.css'
 import Header from './Components/Header/Header'
 import Banner from './Components/Banner/Banner'
 import ProductCart from './Components/ProductCart/ProductCart'
 import BannerInnovation from './Components/Banner/BannerInnovation'
+import CardBusiness from './Components/CardBusiness/CardBusiness'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +15,7 @@ function App() {
       <Banner></Banner>
       <ProductCart></ProductCart>
       <BannerInnovation></BannerInnovation>
+      <CardBusiness></CardBusiness>
     </div>
   )
 }
