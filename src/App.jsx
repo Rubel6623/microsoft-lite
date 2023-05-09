@@ -5,6 +5,8 @@ import Banner from './Components/Banner/Banner'
 import ProductCart from './Components/ProductCart/ProductCart'
 import BannerInnovation from './Components/Banner/BannerInnovation'
 import CardBusiness from './Components/CardBusiness/CardBusiness'
+import SliderIno from './Components/SliderIno/SliderIno';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +18,8 @@ function App() {
       <ProductCart></ProductCart>
       <BannerInnovation></BannerInnovation>
       <CardBusiness></CardBusiness>
+      <SliderIno></SliderIno>
+      <Footer></Footer>
     </div>
   )
 }

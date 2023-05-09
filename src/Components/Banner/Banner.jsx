@@ -22,14 +22,15 @@ const Banner = () => {
           alt="First slide"
         />
         <Carousel.Caption  className="text-start mb-5 pb-5">
-          <div className="
-          ">
+          <div  className='slide-text '>
+          <div>
           <h2>Microsoft 365</h2>
           <p className="banner-text">Turn your ideas into reality, stay safer online and off, and focus on what matters most with Microsoft 365 apps</p>
           </div>
           <div className="d-flex">
           <button className="btn-book text-white">For 1 Person</button>
            <a className="mt-2 text-white" href="#">For up to 6 People <HiChevronRight></HiChevronRight></a>
+          </div>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -41,11 +42,13 @@ const Banner = () => {
           alt="Second slide"
         />
         <Carousel.Caption className="slide-card text-start mb-5 pb-5">
+          <div>
           <div className="">
           <h2>Save up to $300 on Surface Pro 9</h2>
           <p className="banner-text">The tablet flexibility you want and the laptop performance you need—all in one ultra-portable device. Offer ends 5/21.</p>
           </div>
           <button className="btn-book text-white">Shop Surface Pro 9</button>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
