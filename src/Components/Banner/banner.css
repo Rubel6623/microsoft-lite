@@ -26,3 +26,9 @@
     margin-top: 0px;
     background-color: rgba(243, 241, 241, 0.61);
 }
+.banner-ino{
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Bing-AI-Open-Preview:VP3-1083x600');
+    height: 500px;
+    background-size: 100% 100%;
+    border: 1px solid rgb(228, 241, 238);
+}
